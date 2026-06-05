@@ -1,0 +1,65 @@
+body{
+    height: 2000px;
+}
+.N1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    top: 20px;
+}
+.parent{
+    height: 400px;
+    width: 400px;
+    background-color: violet;
+    position: relative;
+
+}
+.child{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.N2{
+    height: 50px;
+    width: 40%;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    right: 0;
+}
+
+.N3{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.N{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    
+}
+#N4{
+    order: -1;
+}
+.N5{
+        display: flex;
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#N6{
+    order: -1;
+}

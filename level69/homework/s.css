@@ -1,0 +1,20 @@
+#black{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+}
+#red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+#green{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+#blue{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}

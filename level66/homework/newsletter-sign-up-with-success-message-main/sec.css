@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.main {
+  background-color: hsl(234, 29%, 20%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.success-card {
+  background-color: white;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 36px;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+.success-icon {
+  width: 48px;
+  height: 48px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.1;
+  color: hsl(234, 29%, 20%);
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: hsl(235, 18%, 26%);
+}
+
+strong {
+  color: hsl(234, 29%, 20%);
+}
+
+.btn {
+  width: 100%;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #242742;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+

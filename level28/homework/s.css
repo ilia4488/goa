@@ -1,0 +1,46 @@
+/* ul{
+    list-style-type: upper-latin;
+    list-style-position: inside;
+}
+ol{
+    list-style:url(https://www.shutterstock.com/image-vector/cartoon-car-on-white-background-260nw-2550869333.jpg);
+    list-style-position: inside;
+}
+
+.inp1[type="text"]{
+    color: red
+}
+.inp2[type="text"]{
+    color:rgb(4, 0, 255) ;
+}
+.inp3[type="number"]{
+    color:rgb(0, 255, 8) ;
+} */
+.inp4[type="text"]{
+    color: red
+}
+.inp5[type="text"]{
+    color:rgb(4, 0, 255) ;
+}
+.inp6[type="number"]{
+    color:rgb(0, 255, 8) ;
+}
+.inp7[type="email"]{
+    color: red
+}
+.inp8[type="date"]{
+    color:rgb(4, 0, 255) ;
+}
+.inp9[type="color"]{
+    color:rgb(0, 255, 8) ;
+}
+.inp10[type="password"]{
+    color: red
+}
+#gender{
+    color: red;
+}
+div{
+    background-color: rgb(0, 240, 28);
+    
+}

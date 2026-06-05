@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paren{
+    display: flex;
+    justify-content: right;
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    
+}
+
+.chi{
+    background-color: greenyellow;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+}

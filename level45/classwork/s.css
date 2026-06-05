@@ -1,0 +1,142 @@
+/* .container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 250px 250px 250px;
+    justify-content: space-around;
+    align-items: center;
+} */
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.maindp{
+    background-color: rgb(196, 196, 196);
+    width: 1200px;
+    height: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pr{
+    text-align: center;
+    font-size: 35px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+}
+.maind{
+    background-color: rgb(196, 196, 196);
+    width: 1000px;
+    height: 700px;
+    box-shadow: 50px black;
+}
+.s{
+    background-color: rgb(196, 196, 196);
+    width: 100%;
+    height: 468px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* .section1{
+    background-color: beige;
+    
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2{
+    background-color: rgb(175, 175, 155);
+    
+    width: 34%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.section3{
+    background-color: rgb(79, 79, 71);
+    
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.card1{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    border-top: 3px aqua solid;
+    border-radius: 7px;
+    margin-top: 20%;
+}
+.card2{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    border-top: 3px red solid;
+    border-radius: 7px;
+}
+.card3{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin-top: 20%;
+    border-top: 3px blue solid;
+    border-radius: 7px;
+}
+.card4{
+    background-color: white;
+    border-radius: 7px;
+    width: 300px;
+    height: 200px;
+    border-top: 3px yellow solid;
+}
+h2{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h5{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: gray;
+}
+
+
+@media (max-width: 1250px) {
+ .maindp{
+    width: 950px;
+ }
+}
+@media (max-width: 1015px) {
+    .s{
+        height: 800px;
+        display: flex;
+        
+    }
+    .maindp{
+        width: 800px;
+    }
+}
+@media (max-width: 880px) {
+    .maindp{
+        width: 650px;
+    }
+}
+@media (max-width: 670px) {
+    .s{
+        gap: 20px;
+        height: 1100px;
+    }
+    .maindp{
+        width: 350px;
+    }
+}

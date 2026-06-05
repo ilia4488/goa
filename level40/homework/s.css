@@ -1,0 +1,14 @@
+div{
+    background-color: gray;
+    height: 150px;
+    width: 150px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+div:hover{
+    transform: translate(10px,10px);
+}
+div:active{
+    transform: translate(15px,15px);
+}

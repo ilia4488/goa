@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+td{
+    border: 2px yellow solid;
+    color: white;
+    border-collapse: collapse;
+}
+tr{
+    border: 2px yellow solid;
+    border-collapse: collapse;
+}
+.sc{
+    border-width: 2px;
+    border-color: yellow;
+    border-style: solid;
+    border-collapse: collapse;
+}
+tr:nth-child(even){
+    background-color: green;
+}
+/* p{
+    color: white;
+    font-size: 40px;
+}
+p:hover{
+color: red;
+}
+.x{
+    color: red;
+}
+.x:hover{
+    color: rgb(255, 153, 0);
+    background-color: blue;
+}
+.x:active{
+    color: yellow;
+}
+.x:link{
+
+}
+.x:visited{
+
+} */

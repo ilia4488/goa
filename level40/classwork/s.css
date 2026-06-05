@@ -1,0 +1,28 @@
+/* body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/041/880/991/small/ai-generated-pic-artistic-depiction-of-sunflowers-under-a-vast-cloudy-sky-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+} */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    transition: transform 10s ease, background-color 5s;
+}
+
+div:hover{
+    background-color: blue;
+    transform: scale(2);
+}
+/* animacia aris ragaca drois ganmavlobashi elementi rom icvleba magalitad hoverze gamoiyeneba transition: transform magalitad 5s ease,ease-in da ase shemdeg */
+
+
+

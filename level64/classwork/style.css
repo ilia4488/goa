@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 70%;
+    width: 25%;
+    border-radius: 25px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inc{
+    height: 93%;
+    width: 90%;
+    background-color: ;
+
+}
+.fimg{
+    height: 56%;
+    border-radius: 10px;
+    width: 100%;
+}
+.se{
+    height: 45%;
+    width: 100%;
+    background-color: ;
+    
+}
+h1{
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.p1{
+    color: hsl(215, 51%, 70%);
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dou{
+    background-color: ;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.do1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.do2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.h{
+    color: hsl(178, 100%, 50%);
+}
+.h2{
+    color: hsl(215, 51%, 70%);
+}
+
+.line{
+    width: 100%;
+    border: 1px solid  hsl(215, 51%, 70%);;
+    
+    margin-top: 20px;
+}
+.par{
+    font-size: 18px;
+    color: white;
+}
+span{
+   color: hsl(215, 51%, 70%);
+}
+.fomg{
+    height: 100%;
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.las{
+    background-color: ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+@media(max-width:1000px){
+    .card{
+        width: 40%;
+    }
+}
+@media(max-width:750px){
+    .card{
+        width: 65%;
+    }
+}
+@media(max-width:450px){
+    .card{
+        width: 85%;
+    }
+}

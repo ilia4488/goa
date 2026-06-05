@@ -1,0 +1,29 @@
+h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+    /* shordeba 20 pixelit yvela mxridan */
+    margin: 10px 20px;
+    /* tavidan da qvemodan 10 pxelit shordeba da marcxniv da marjvniv 20 px-it saits */
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+
+}
+img{
+    height: 200px;
+    width: 600px;
+    margin-left:30%;
+    /* marginit gavcentre */
+}
+
+div{
+    background-color: rgb(255, 0, 0);
+    padding: 10px 20px; 
+    /* divshi tavidan da qvemodan 10 pxelit shordeba da marcxniv da marjvniv 20 px-it */
+    margin: 20px; 
+    /* saitis gverdebidan ashorebs divs 20px-it*/
+}

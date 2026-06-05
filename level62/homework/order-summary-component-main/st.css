@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('/images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+.card-hero {
+    width: 100%;
+    height: auto;
+
+}
+
+.hero-img {
+    width: 100%;
+    display: block;    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card-content {
+    padding: 45px 48px;
+    text-align: center;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 18px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 24px;
+    padding: 0 10px;
+}
+
+.plan-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 32px;
+}
+
+.plan-details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-text {
+    text-align: left;
+}
+
+.plan-name {
+    font-size: 16px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 4px;
+}
+
+.plan-price {
+    font-size: 15px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.change-link {
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+
+.btn-primary {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    
+    transition: background-color 0.2s ease;
+    margin-bottom: 32px;
+}
+
+
+
+.btn-secondary {
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+
+@media (max-width: 480px) {
+    .card-content {
+        padding: 32px 24px;
+    }
+    
+    .title {
+        font-size: 22px;
+    }
+    
+    .description {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}

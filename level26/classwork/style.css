@@ -1,0 +1,32 @@
+.x{
+    border: solid 2px red;
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px red solid;
+    color: rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+th{
+background-color: green;
+}
+
+tr:nth-child(even){
+    background-color: orange;
+}
+tr:hover{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

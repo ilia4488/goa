@@ -1,0 +1,29 @@
+h1{
+    font-size: xx-large;
+    text-align: center;
+    color: blue;
+}
+h5{
+    font-size: xx-large;
+    text-align: center;
+    color: blue;
+}
+h4{
+    font-size: xx-large;
+    text-align: center;
+    color: blue;
+}
+ul{
+    color: cadetblue;
+    list-style-type: square;
+    list-style-position: inside;
+    text-align: center;
+}
+li{
+    color: aqua;
+    text-align: center;
+}
+button{
+    background-color: rgb(255, 153, 0);
+    color: red;
+}

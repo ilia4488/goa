@@ -1,0 +1,10 @@
+
+div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+p{
+    background-color: gray;
+}
+

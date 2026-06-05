@@ -1,0 +1,157 @@
+/* animaciis gaketeba sheidzleba @Keyframes gamoyenebit da elements shignit unda chaeweros animacia da misi parametrebi */
+
+.ballb{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    border: 2px solid black;
+    animation: jump 0.5s linear infinite;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid black;
+    width: 400px;
+    height: 600px;
+}
+.con2{
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+
+    animation: disp 4s linear infinite;
+}
+.scuare{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    animation: moving 4s linear infinite;
+}
+.scuare2{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    animation: moving 4s linear infinite;
+    animation-delay: 0.28s;
+}
+.scuare3{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    animation: moving 4s linear infinite;
+    animation-delay: 0.21s;
+}
+.scuare4{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    animation: moving 4s linear infinite;
+    animation-delay: 0.14s;
+}
+.scuare5{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    animation: moving 4s linear infinite;
+    animation-delay: 0.07s;
+}
+
+
+
+.scuare6{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    animation: moving 4s linear infinite;
+    animation-delay: 0.63s;
+}
+.scuare7{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    animation: moving 4s linear infinite;
+    animation-delay: 0.56s;
+}
+.scuare8{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    animation: moving 4s linear infinite;
+    animation-delay: 0.49s;
+}
+.scuare9{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    animation: moving 4s linear infinite;
+    animation-delay: 0.42s;
+}
+.scuare10{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    animation: moving 4s linear infinite;
+    animation-delay: 0.35s;
+}
+
+
+
+
+
+@keyframes moving{
+    0%{
+        transform: translate(0px,0px);
+    }
+    25%{
+        transform: translate(70px,0px);
+    }
+    50%{
+        transform: translate(70px,70px);
+    }
+    75%{
+        transform: translate(0px,70px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+@keyframes jump{
+    0%{
+        height: 100px;
+        width: 100px;
+    }
+    20%{
+        height: 100px;
+        width: 50px;
+        
+    }
+    40%{
+        height: 100px;
+        width: 50px;
+        transform: translate(0px,510px);
+    }
+    50%{
+        width: 100px;
+        height: 50px;
+        transform: translate(0px,510px);
+    }
+}
+
+
+
+
+
+

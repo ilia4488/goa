@@ -1,0 +1,110 @@
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.loading{
+    width: 400px;
+    height: 100px;
+    background-color: bisque;
+    border: 4px solid black;
+    
+    border-radius: 10px;
+}
+.bar{
+    background-color: green;
+    height: 100%;
+    width: 0%;
+    animation: fill 5s linear infinite;
+    border-radius: 5px;
+}
+@keyframes fill{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+.ballb{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    border: 2px solid black;
+    animation: jump 4s linear infinite;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid black;
+    width: 400px;
+    height: 600px;
+}
+
+@keyframes jump{
+    25%{
+        height: 100px;
+        width: 50px;
+        transform: translate(0px,300px);
+    }
+    40%{
+        height: 100px;
+        width: 50px;
+        transform: translate(0px,539px);
+    }
+    50%{
+        width: 100px;
+        height: 50px;
+        transform: translate(0px,539px);
+    }
+}
+
+/* div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    animation-name: colorScale;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+} */
+
+/* 0) animacia iwyba trigeris gareshe transitions trigeri swirdeba hover,active an sxca */
+
+/* 1) */
+/* @keyframes colorScale{
+    25%{
+        background-color: blue;
+        transform: translate(750px,0px);
+    }
+    50%{
+        background-color: green;
+        transform: translate(750px,350px);
+    }
+    75%{
+        background-color: orange;
+        transform: translate(0px,350px);
+    }
+    100%{
+        background-color: red;
+        transform: translate(0px,0px);
+    }
+} */
+
+/* @keyframes new{
+    50%{
+        height: 200px;
+        width: 200px;
+    }
+    100%{
+        height: 100px;
+        width: 100px;
+    }
+} */
+
+/* 0) კომენტარებით ახსენით რა არის განსხვავება ანიმაციასა და ტრანსიშიონს შორის
+1) შექმენით ანიმაცია, სადაც ყუთი ეკრანს შემოივლის და ამავდროულათ შეეცვლება ფერი ყოველ 25%ზე */
+
