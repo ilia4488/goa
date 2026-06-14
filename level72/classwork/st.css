@@ -1,0 +1,13 @@
+#card{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+.half{
+    display: flex;
+    flex-wrap: wrap;
+}
