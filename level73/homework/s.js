@@ -1,4 +1,3 @@
-
 const form = document.querySelector('form');
 
 form.addEventListener('submit',(event)=> {
@@ -20,6 +19,6 @@ form.addEventListener('submit',(event)=> {
 
     localStorage.setItem('contactFormData', JSON.stringify(formData));
 
-    alert('მონაცემები წარმატებით შეინახა localStorage-ში!');
+    alert('stored in localStorage');
     console.log(localStorage.getItem('contactFormData'));
 });
