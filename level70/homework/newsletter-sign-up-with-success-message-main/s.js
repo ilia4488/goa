@@ -41,54 +41,47 @@
 
 
 const form = document.querySelector("form");
-const mainDiv = document.querySelector(".maindiv"); // კონტეინერი, სადაც გამოვაჩენთ ტექსტს
+const mainDiv = document.querySelector(".maindiv"); 
 
-// ბაზის სიმულაცია (აქ შეინახება მომხმარებლები)
 const users = [];
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    // 1. მონაცემების წამოღება name ატრიბუტით
     const firstname = e.target.firstname.value;
     const email = e.target.email.value;
-    const message = e.target.message.value; // HTML-ში textarea-ს უნდა დავამატოთ name="message"
+    const message = e.target.message.value; 
 
-    // 2. ახალი ობიექტის შექმნა
     const newUser = {
         firstname,
         email,
         message
     };
 
-    // 3. შემოწმება: არსებობს თუ არა უკვე ეს იმეილი მასივში
     const exists = users.some(single => single.email === email);
     if (exists) {
         alert("User with this email already exists");
-        return; // აჩერებს ფუნქციას
+        return;
     }
 
-    // 4. შემოწმება: მესიჯის სიგრძე ხომ არ აღემატება 20 სიმბოლოს
+   
     if (message.length > 20) {
         alert("Message length should be maximum 20 symbols");
-        return; // აჩერებს ფუნქციას
+        return; 
     }
 
-    // 5. თუ შემოწმებები გაიარა, ვამატებთ მასივში და ვარენდერებთ
     alert("Successfully registered");
     users.push(newUser);
     render(newUser);
 
-    // ფორმის გასუფთავება გაგზავნის შემდეგ (სურვილისამებრ)
     form.reset();
     
-    console.log(users); // კონსოლში შესამოწმებლად
+    console.log(users); 
 });
 
-// რენდერის ფუნქცია ეკრანზე გამოსატანად
 const render = (user) => {
     const p = document.createElement('p');
-    // გამოვიტანოთ იმეილი და მესიჯი ლამაზად
+    
     p.textContent = `Email: ${user.email} | Message: ${user.message}`;
     p.style.color = "#2b423a";
     p.style.marginTop = "10px";

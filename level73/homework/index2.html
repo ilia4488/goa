@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="div2">
+            <div class="main2">
+                <h1>Contact Us</h1>
+                <form>
+                    <div class="card1">
+                        <div class="in1">
+                            <label class="label1" for="firstname">First Name <span>*</span></label>
+                            <input id="firstname" type="text" name="firstname" required>
+                        </div>
+                        <div class="in2">
+                            <label class="label1" for="lastname">Last Name <span>*</span></label>
+                            <input id="lastname" type="text" name="lastname" required>
+                        </div>
+                    </div>
+
+                    <div class="email-group">
+                        <label class="em" for="email">Email Address<span>*</span></label>
+                        <input id="email" type="email" name="email" required>
+                    </div>
+
+                    <label class="label">Query Type <span>*</span></label>
+                    <div class="radio-row">
+                        <label class="radio-box">
+                            <input type="radio" name="query" value="general" required>
+                            <span>General Enquiry</span>
+                        </label>
+                        <label class="radio-box">
+                            <input type="radio" name="query" value="support">
+                            <span>Support Request</span>
+                        </label>
+                    </div>
+
+                    <div class="group">
+                        <label class="label" for="msg">Message <span>*</span></label>
+                        <textarea id="msg" class="textarea" name="message" required></textarea>
+                    </div>
+
+                    <label class="checkbox-row">
+                        <input type="checkbox" required>
+                        <span class="checkbox-text">I consent to being contacted by the team <span>*</span></span>
+                    </label>
+
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="s.js"></script>
+</body>
+</html>
