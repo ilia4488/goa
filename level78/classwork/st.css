@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(255, 11%, 22%);
+    overflow-x: hidden;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    max-width: 1110px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#imgn {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.logo {
+    height: auto;
+}
+
+#links {
+    display: flex;
+    gap: 30px;
+}
+
+#links a {
+    text-decoration: none;
+    color: hsl(257, 7%, 63%);
+    font-weight: 700;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+
+
+#buttons {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+button, a {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#login {
+    background-color: transparent;
+    border: none;
+    color: hsl(257, 7%, 63%);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+
+#signup {
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 28px;
+    width: 110px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+
+#hero-section {
+    max-width: 1110px;
+    margin: 60px auto 150px auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#left {
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#left h1 {
+    font-size: 72px;
+    line-height: 1.15;
+    color: hsl(255, 11%, 22%);
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+#left p {
+    color: hsl(257, 7%, 63%);
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    max-width: 500px;
+}
+
+#getst {
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 28px;
+    width: 180px;
+    height: 54px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+
+#right {
+    flex: 0.8;
+    position: relative;
+}
+
+#hero {
+    width: 130%;
+    max-width: none;
+    position: relative;
+    left: 40px;
+}
+
+#form-container {
+    background-color: hsl(230, 25%, 95%);
+    padding: 0 20px;
+    position: relative;
+}
+
+#form {
+    max-width: 1110px;
+    margin: 0 auto;
+    transform: translateY(-50%);
+}
+
+form {
+    background-image: url("./images/bg-shorten-desktop.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 27%, 26%);
+    width: 100%;
+    padding: 50px 60px;
+    border-radius: 10px;
+}
+
+#inp {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+input {
+    flex: 1;
+    height: 64px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 30px;
+    font-size: 18px;
+    color: hsl(255, 11%, 22%);
+}
+
+input::placeholder {
+    color: hsl(257, 7%, 63%);
+}
+
+input:focus {
+    outline: 3px solid hsl(180, 66%, 49%);
+}
+
+#shorten {
+    height: 64px;
+    width: 180px;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+
+#adv {
+    background-color: hsl(230, 25%, 95%);
+    padding: 30px 20px 200px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#advs {
+    text-align: center;
+    margin-bottom: 100px;
+    max-width: 540px;
+}
+
+#advs h2 {
+    font-size: 40px;
+    color: hsl(255, 11%, 22%);
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+
+#advs p {
+    color: hsl(257, 7%, 63%);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#divs-wrapper {
+    max-width: 1110px;
+    width: 100%;
+    position: relative;
+}
+
+.connector-line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 8px;
+    background-color: hsl(180, 66%, 49%);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+#divs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    padding: 75px 32px 40px 32px;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.02);
+    height: 350px;
+}
+
+.card-icon-container {
+    background-color: hsl(257, 27%, 26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    top: -44px;
+    left: 32px;
+}
+
+.card-icon-container img {
+    width: 45%;
+    height: auto;
+}
+
+.divstext {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.divstext h3 {
+    font-size: 22px;
+    color: hsl(255, 11%, 22%);
+    font-weight: 700;
+}
+
+.divstext p {
+    color: hsl(257, 7%, 63%);
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+#detail {
+    transform: translateY(44px);
+}
+
+#Fully {
+    transform: translateY(88px);
+}
+
+#boost {
+    background-image: url("./images/bg-boost-desktop.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 27%, 26%);
+    padding: 90px 20px;
+    text-align: center;
+}
+
+.boost-content h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+#boost-getst {
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 28px;
+    width: 180px;
+    height: 54px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+
+footer {
+    background-color: hsl(260, 8%, 14%);
+    padding: 70px 20px;
+}
+
+.footer-container {
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    color: hsl(0, 0%, 100%);
+    font-size: 32px;
+    font-weight: 700;
+    flex: 1.5;
+}
+
+#navs {
+    display: flex;
+    gap: 80px;
+    flex: 2;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.footer-col h4 {
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-col nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-col nav a {
+    color: hsl(257, 7%, 63%);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+#logos {
+    display: flex;
+    gap: 24px;
+    flex: 1;
+    justify-content: flex-end;
+}
+

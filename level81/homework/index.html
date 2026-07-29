@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #container div{
+        border: 2px solid black;
+        width: 300px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    }
+</style>
+<body>
+    <div id="container">
+        <h1>Products</h1> 
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShFPAuJeL-otR-mr-O2bUwJkSnjwwEpF0s2Et-b_SLKQ&s=10" alt="">
+            <h2>Tomato</h2>
+            <p>2.00</p>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://www.veggipedia.nl/_next/image?url=https%3A%2F%2Fveggipedia-cms.production.taks.zooma.cloud%2Fassets%2FUploads%2FProducts%2FAardappel-groenten-Veggipedia__FitMaxWzYwMCw2MDBd.png&w=3840&q=75" alt="">
+            <h2>Potato</h2>
+            <p>4.00</p>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShlFquNWFrHaQSXk3td4yvYBT5IrjJFmx6kCe_0-afdM0k_ELtZTV_--yq&s=10" alt="">
+            <h2>Carrot</h2>
+            <p>1.00</p>
+            <button>Add to cart</button>
+        </div>
+
+
+        <div id="cart">
+            <h2>Cart:</h2>
+        </div>
+
+    </div>
+    <script src="s.js"></script>
+</body>
+</html>
