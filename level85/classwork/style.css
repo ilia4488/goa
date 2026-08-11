@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+img{
+    height: 200px;
+    padding: 10px;
+    width: 200px;
+}
+body{
+    background-color: rgb(102, 201, 255);
+}
+h2{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgba(240, 248, 255, 0);
+    text-align: center;
+    color: rgb(105, 105, 105);
+}
+.product-card{
+    border: 3px solid black;
+    display: flex;    
+    background-image: url(https://play-lh.googleusercontent.com/Xz6JkG6gOYyB_Clk--dFNZa2eyu3T1bD8T1DQU7fe7jfBTpClPgjhBdrGe7MVFWTUBVaouhqzsHtYUEfOo4n);
+    background-repeat: round;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 1.15);
+    border-radius: 20px;
+    width: 50%;
+    
+}
+#container{
+    background-color: rgb(102, 201, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+span{
+    color: green;
+    padding: 15px;
+    font-size: 25px;
+}
+p{
+    padding: 15px;
+    color: white;
+}
