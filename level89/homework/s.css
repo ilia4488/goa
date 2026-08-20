@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(187, 0, 0);
+    padding: 15px;
+}
+h6{
+    font-size: x-large;
+    text-align: center;
+    padding: 15px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA961RAO4FfPbo8gBE5VZhPaefgBx57zryzdarV7o9FwXO2lAJgpCpAss&s=10);
+}
+.main{
+    width: 60%;
+    height: 700px;
+    display: grid;
+    padding: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+}
+p{
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.card{
+    overflow: hidden;
+    width: 95%;
+    border-radius: 20px;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(143, 0, 0);
+    border: 1px solid black;
+}
+.card:hover{
+    scale: 105%;
+}
+img{
+    height: 100%;
+    width: 100%;
+    
+}
+h5{
+    font-size: x-large;
+    text-align: center;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+@media(max-width:650px){
+    .main{
+        width: 100%;
+        gap: 10px;
+    }
+}
