@@ -1,0 +1,342 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Text', sans-serif, system-ui;
+}
+
+body {
+    background-color: hsl(20, 50%, 98%);
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: hsl(14, 65%, 9%);
+    margin-bottom: 20px;
+}
+
+.maindiv {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.container {
+    width: 68%;
+}
+
+.div2 {
+    width: 32%;
+}
+
+.sec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.forimg {
+    position: relative;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.forimg.selected-border img.car {
+    border: 2px solid hsl(14, 86%, 42%);
+}
+
+.car {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+}
+
+.btn {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 44px;
+    border-radius: 25px;
+    border: 1px solid hsl(14, 25%, 72%);
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    border-color: hsl(14, 86%, 42%);
+    color: hsl(14, 86%, 42%);
+}
+
+.quantity-btn.active {
+    background-color: hsl(14, 86%, 42%);
+    border-color: hsl(14, 86%, 42%);
+    color: white;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+
+.qty-change-btn {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.qty-change-btn:hover {
+    background-color: white;
+}
+
+.qty-change-btn:hover svg path {
+    fill: hsl(14, 86%, 42%);
+}
+
+.title {
+    color: hsl(14, 25%, 50%);
+    font-size: 14px;
+}
+
+.desc {
+    color: hsl(14, 65%, 9%);
+    font-weight: 600;
+    font-size: 16px;
+    margin: 4px 0;
+}
+
+.price {
+    color: hsl(14, 86%, 42%);
+    font-weight: 600;
+}
+
+.cart {
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+h2 {
+    font-size: 24px;
+    color: hsl(14, 86%, 42%);
+    margin-bottom: 20px;
+}
+
+.divfa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    color: hsl(12, 20%, 44%);
+    font-size: 14px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid hsl(13, 31%, 94%);
+}
+
+.cart-item-name {
+    font-weight: 600;
+    color: hsl(14, 65%, 9%);
+    margin-bottom: 6px;
+}
+
+.cart-item-details {
+    display: flex;
+    gap: 12px;
+    font-size: 14px;
+}
+
+.qty {
+    color: hsl(14, 86%, 42%);
+    font-weight: 600;
+}
+
+.unit-price {
+    color: hsl(12, 20%, 44%);
+}
+
+.total-item-price {
+    color: hsl(14, 25%, 50%);
+    font-weight: 600;
+}
+
+.remove-btn {
+    border: 1px solid hsl(13, 31%, 80%);
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove-btn:hover {
+    border-color: hsl(14, 65%, 9%);
+}
+
+.remove-btn:hover svg path {
+    fill: hsl(14, 65%, 9%);
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    color: hsl(14, 65%, 9%);
+}
+
+.total-amount {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.carbon-neutral {
+    background-color: hsl(20, 50%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.confirm-order-btn, .new-order-btn {
+    width: 100%;
+    background-color: hsl(14, 86%, 42%);
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.confirm-order-btn:hover, .new-order-btn:hover {
+    background-color: hsl(14, 90%, 30%);
+}
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    border-radius: 12px;
+    padding: 32px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.confirmed-icon {
+    width: 48px;
+    margin-bottom: 16px;
+}
+
+.modal-subtitle {
+    color: hsl(12, 20%, 44%);
+    margin-bottom: 24px;
+}
+
+.modal-order-summary {
+    background-color: hsl(20, 50%, 98%);
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.modal-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 0;
+    border-bottom: 1px solid hsl(13, 31%, 94%);
+}
+
+.modal-item-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+}
+
+.modal-item-info {
+    flex-grow: 1;
+}
+
+.modal-item-name {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.modal-item-qty-price {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.modal-item-total {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.modal-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.modal-total strong {
+    font-size: 20px;
+}
+
+@media (max-width: 900px) {
+    .maindiv {
+        flex-direction: column;
+    }
+    .container, .div2 {
+        width: 100%;
+    }
+    .sec {
+        grid-template-columns: 1fr;
+    }
+}

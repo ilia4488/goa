@@ -1,4 +1,4 @@
-// დავალება 1
+// 1
 const btnText = document.getElementById("btn-text");
 const textParagraph = document.getElementById("text");
 
@@ -7,7 +7,7 @@ btnText.addEventListener("click", function() {
     textParagraph.style.color = "blue";
 });
 
-// დავალება 2
+// 2
 const btnBox = document.getElementById("btn-box");
 const boxDiv = document.getElementById("box");
 
@@ -16,7 +16,7 @@ btnBox.addEventListener("click", function() {
     boxDiv.style.backgroundColor = "green";
 });
 
-// დავალება 3
+// 3
 const btnMinus = document.getElementById("btn-minus");
 const btnPlus = document.getElementById("btn-plus");
 const counterDisplay = document.getElementById("counter");

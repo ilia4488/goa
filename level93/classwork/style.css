@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    width: 100%;
+    background-color: gainsboro;
+}
+.container{
+    background-color: white;
+    height: 90%;
+    width: 55%;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.482) 1px 1px 15px 1px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.card1{
+    background-color: hsl(205, 33%, 90%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 8%;
+    border-radius: 20px;
+}
+.card2{
+    background-color: hsla(204, 36%, 37%, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 8%;
+    border-radius: 20px;
+    
+}
+.card2e{
+    background-color: hsla(204, 36%, 37%, 0);
+    display: 
+    ;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 8%;
+    border-radius: 20px;
+    
+}
+.ndiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: ;
+}
+.exccard{
+    gap: 10px;
+        background-color: hsla(205, 33%, 90%, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: auto;
+    border-radius: 20px;
+}
+.fdiv{
+    width: 85%;
+    background-color: rgba(0, 128, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7%;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.par2{
+    cursor: pointer;
+}
+b{
+    color: black;
+}
+.span4{
+    color: hsl(219, 85%, 26%);
+    font-weight: 900;
+}
+.par2:hover{
+    color: hsl(219, 85%, 26%);
+}
+b:hover{
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+.comment{
+    border: 1px hsl(219, 14%, 63%) solid;
+    border-radius: 5px;
+    width: 90%;
+}
+.comment:hover{
+    background-color: hsl(205, 33%, 90%);
+}
+.comm{
+    margin-top: 5%;
+}
+.comp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+.pic{
+    align-self: flex-end;
+    margin-left: ;
+}
+.pic:hover{
+    border: 3px solid hsl(219, 14%, 63%);
+    border-radius: 10px;
+}
+.par{
+    font-size: 20px;
+    color:hsl(219, 14%, 63%) ;
+}
+.par2{
+    font-size: 15px;
+    color:hsl(219, 14%, 63%) ;
+}
+.span3{
+    font-weight: 500;
+    color: hsl(219, 14%, 63%);
+}
+.span1{
+    font-weight: 500;
+    color: hsl(219, 12%, 42%);
+}
+.span2{
+    color: red;
+}
+@media (max-width:800px) {
+    .container{
+        width: 75%;
+        gap: 15px;
+    }
+}
+@media (max-width:600px) {
+    .maindiv{
+        height: 150vh;
+    }
+    .container{
+        width: 100%;
+        gap: 25px;
+    }
+}
+@media (max-width:400px) {
+    .container{
+        width: 100%;
+        gap: 35px;
+    }
+    .card1{
+        height: 10%;
+    }
+    .card2{
+        height: 10%;
+    }
+        .card2e{
+        height: 10%;
+    }
+    .par{
+        font-size: 12px;
+    }
+}

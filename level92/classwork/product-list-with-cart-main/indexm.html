@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts Product List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="container">
+            <h1>Desserts</h1>
+
+            <div class="sec"></div>
+        </div>
+
+        <div class="div2">
+            
+            <div class="cart"></div>
+        </div>
+    </div>
+
+
+    <div id="order-modal" class="modal-overlay">
+        <div class="modal-content">
+            <img src="./assets/images/icon-order-confirmed.svg" alt="Order Confirmed" class="confirmed-icon">
+            <h2>Order Confirmed</h2>
+            <p class="modal-subtitle">We hope you enjoy your food!</p>
+
+
+            <div class="modal-order-summary">
+                <div id="modal-cart-list"></div>
+                <div class="modal-total">
+                    <span>Order Total</span>
+                    <strong id="modal-total-price">$0.00</strong>
+                </div>
+            </div>
+
+            <button class="new-order-btn" onclick="resetOrder()">Start New Order</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
