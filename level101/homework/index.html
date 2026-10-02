@@ -1,0 +1,28 @@
+<!-- 1. რას ნიშნავს conditional rendering React-ში?
+2. როგორ შეგვიძლია React-ში ელემენტის ჩვენება მხოლოდ მაშინ, როცა პირობა true არის?
+3. რას აკეთებს ეს კოდი თუ isLoggedIn დააბრუნებს Trueს?
+{isLoggedIn && <h1>Welcome!</h1>}
+
+4. როგორ ვიყენებთ ternary operator-ს React-ში?
+
+5. რა განსხვავებაა &&-ით და ternary operator-ით პირობის დაწერას შორის React-ში? -->
+<!-- 1)conditional rendering aris pirobiti gamochena visualuri elementebis saitze momxmareblistvis hgavs if-s ogond jsx shi xdeba yvelaferi
+
+2) {} eset prcxilebashi unda chavsvat piroba shemdeg && davuwerot da tu true iqneba piroba mashin achvenebs elements
+
+3)es kodi gamoitans Welcome!
+
+4)ternary operator gamoiyeneba reactshi magalitad ese 
+
+function greet({isLogged}){
+    return(
+        <div>
+            ifis piroba     tu if trua es gamova   tu ara es
+            {isLogged ? <h1>hello</h1> : <h1>log in first</h1>}
+        </div>
+    )
+}
+
+5) reactshi gamoiyeneba ? : && 
+&& aris ubralod if else ar aqvs
+?: gamoiyeneba if elses dros -->
